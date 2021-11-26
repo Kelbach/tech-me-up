@@ -11,4 +11,6 @@ async function logout() {
     }
 }
 
+setTimeout(logout, 300000);
+
 document.querySelector('#logout').addEventListener('click', logout);

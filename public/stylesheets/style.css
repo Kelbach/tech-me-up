@@ -68,8 +68,6 @@
   .wrapper {
     width: 100%;
     min-height: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
   }
@@ -118,7 +116,7 @@
   }
   
   .post {
-    margin-bottom: 2%;
+    margin: 2%;
     line-height: 150%;
   }
   
