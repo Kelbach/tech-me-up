@@ -1,18 +1,16 @@
 <article class="post">
-  <div class="row">
-    <div class="title col-6">
-      <a href="/post/{{id}}">
-      <h3>
-        {{title}}
-      </h3></a>   
-    </div>
+  <div class="title">
+    <a href="/post/{{id}}">
+    <h3>
+      {{title}}
+    </h3></a>
     <span>
-      Created by {{user.username}} on {{format_date created_at}}
-    </span>
+    Created by {{user.username}} on {{format_date created_at}}
+  </span>   
   </div>
-    <p>
-      {{post_text}}
-    </p>
+  <p>
+    {{post_text}}
+  </p>
   <div class="meta">
     {{vote_count}} {{format_plural "point" vote_count}} by {{user.username}} on {{format_date created_at}}
     |
